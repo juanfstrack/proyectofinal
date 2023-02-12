@@ -24,7 +24,9 @@
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="../index.html"
-                        ><img src="../img/logo/VFvdqY01.svg" alt="Logo de Sulki"
+                        ><img
+                            src="../img/logo/VFvdqY01.svg"
+                            alt="Logo de Sulki"
                     /></a>
                     <button
                         class="navbar-toggler"
@@ -47,13 +49,21 @@
                                 >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/fiambresyquesos.html">F Y Q</a>
+                                <a
+                                    class="nav-link"
+                                    href="../pages/fiambresyquesos.html"
+                                    >F Y Q</a
+                                >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/pedidos.html">Pedidos</a>
+                                <a class="nav-link" href="../pages/pedidos.html"
+                                    >Pedidos</a
+                                >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/picadas.html">Picadas</a>
+                                <a class="nav-link" href="../pages/picadas.html"
+                                    >Picadas</a
+                                >
                             </li>
                         </ul>
                     </div>
@@ -64,25 +74,80 @@
         <!-- Grid de 4 img -->
         <section>
             <div>
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
+                <img
+                    src="../img/pedidos/pedidos 1.webp"
+                    alt="caja para el dia del padre por dentro" />
+                <img
+                    src="../img/pedidos/pedidos 2.webp"
+                    alt="caja para el día del padre por fuera" />
+                <img
+                    src="../img/pedidos/pedidos 3.webp"
+                    alt="caja para el día del padre por dentro 2" />
+                <img
+                    src="../img/pedidos/pedidos 4.webp"
+                    alt="sandwiches de miga" />
             </div>
             <!-- formato de pedidos + variedad -->
             <div>
-                <p></p>
+                <p>
+                    Contamos con un sistema de pedidos takeaway, por el
+                    formulario úbicado más abajo, o por medio de nuestras redes,
+                    podes generar un pedidos para posteriormente retirarlo por
+                    nuestro local úbicado en Sán Nícolas al 1501.
+                </p>
             </div>
         </section>
         <!-- formulario -->
+        <form action="datos.php">
+            <div>
+                <label for="Nombre">Nombre:</label>
+                <input
+                    type="text"
+                    placeholder="ingrese su Nombre"
+                    name="name"
+                    id="Nombre" />
+
+                <label for="Apellido">Apellido:</label>
+                <input
+                    type="text"
+                    placeholder="ingrese su apellido"
+                    name="Apellido"
+                    id="Apellido" />
+
+                <label for="Numero">Movíl</label>
+                <input
+                    type="tel"
+                    placeholder="ingrese su número"
+                    name="número"
+                    id="Numero" />
+            </div>
+            <div>
+                <textarea name="" id="Pedido" cols="30" rows="10"></textarea>
+                <input type="submit" />
+                <input type="reset" />
+            </div>
+        </form>
 
         <footer>
             <!-- redes y contacto -->
-            <div><h2></h2></div>
+            <div><h2>Nuestras redes y contacto</h2></div>
             <div>
-                <a href=""><img src="" alt="" /></a>
-                <a href=""><img src="" alt="" /></a>
-                <a href=""><img src="" alt="" /></a>
+                <a href="https://www.facebook.com/fiambres.sulky.3"
+                    ><img
+                        src="../img/redes/facebook.png"
+                        alt="icono de facebook"
+                /></a>
+                <a
+                    href="https://www.instagram.com/quesosyfiambressulky/?hl=es-la"
+                    ><img
+                        src="../img/redes/logotipo-de-instagram.png"
+                        alt="icono de instagram"
+                /></a>
+                <a href="https://www.whatsapp.com/?lang=es"
+                    ><img
+                        src="../img/redes/whatsapp.png"
+                        alt="icono de whatsapp"
+                /></a>
             </div>
         </footer>
         <!-- link de js BS -->
