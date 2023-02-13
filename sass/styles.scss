@@ -1,0 +1,40 @@
+$color1: #cc5d4c;
+
+@use "parrafos";
+@use "footer";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #c7d1af;
+    font-size: 2rem;
+}
+
+.main {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        h1{
+            text-align: center;
+        }
+        img{
+            width: 49vh;
+        }
+        @media (min-width: 768px) {
+            img{
+                width: 100vh;
+            }
+
+            
+        }
+
+    }
+}

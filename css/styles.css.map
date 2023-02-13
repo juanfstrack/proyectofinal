@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"styles.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/styles.scss","../sass/_parrafos.scss","../sass/_footer.scss"],"names":[],"mappings":"AAKQ;ACLR;EACI;EACA;EACA;EACA;;;ACJJ;EACI;EACA;EACA;EACA;;;AFGJ;EACI;;;AAGJ;EACI;;;AAEJ;EACI;EACA;;;AAIA;EACI;EACA;EACA;;AACA;EACI;;AAEJ;EACI;;AAEJ;EACI;IACI","file":"styles.css"}
