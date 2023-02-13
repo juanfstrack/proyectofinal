@@ -1,0 +1,12 @@
+
+@mixin caja-de-fotos{
+    display: flex;
+    flex-direction: column;
+    background-color: #5b5847;
+    justify-content: space-around;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

@@ -67,7 +67,6 @@ body {
 }
 .main__container img {
   width: 49vh;
-  justify-content: center;
 }
 @media (min-width: 768px) {
   .main__container img {

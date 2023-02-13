@@ -3,6 +3,7 @@ $color1: #cc5d4c;
 @use "parrafos";
 @use "footer";
 @use "form";
+@use "mixinsfunc";
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
@@ -28,7 +29,7 @@ body {
         }
         img {
             width: 49vh;
-            justify-content: center;
+           
         }
         @media (min-width: 768px) {
             img {
@@ -38,15 +39,7 @@ body {
     }
 }
 .main__container2 {
-    display: flex;
-    flex-direction: column;
-    background-color: #5b5847;
-    justify-content: space-around;
-
-    @media (min-width: 768px) {
-        flex-direction: row;
-        justify-content: space-around;
-    }
+ @include mixinsfunc.caja-de-fotos;
 }
 .main__container2 {
     @extend .main;
