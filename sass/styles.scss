@@ -2,6 +2,7 @@ $color1: #cc5d4c;
 
 @use "parrafos";
 @use "footer";
+@use "form";
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
@@ -22,19 +23,37 @@ body {
         display: flex;
         flex-direction: column;
         width: 90%;
-        h1{
+        h1 {
             text-align: center;
         }
-        img{
+        img {
             width: 49vh;
+            justify-content: center;
         }
         @media (min-width: 768px) {
-            img{
+            img {
                 width: 100vh;
             }
-
-            
         }
-
     }
+}
+.main__container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #5b5847;
+    justify-content: space-around;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+.main__container2 {
+    @extend .main;
+}
+.main__container3 {
+    @extend .main__container2;
+}
+.main__container4{
+    @extend .main__container3
 }

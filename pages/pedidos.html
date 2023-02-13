@@ -73,7 +73,7 @@
         </header>
         <!-- Grid de 4 img -->
         <section>
-            <div>
+            <div class="main__container3">
                 <img
                     src="../img/pedidos/pedidos 1.webp"
                     alt="caja para el dia del padre por dentro" />
@@ -98,34 +98,25 @@
             </div>
         </section>
         <!-- formulario -->
-        <form action="datos.php">
-            <div>
-                <label for="Nombre">Nombre:</label>
-                <input
-                    type="text"
-                    placeholder="ingrese su Nombre"
-                    name="name"
-                    id="Nombre" />
+        <form action="">
+            <p>Nombre:</p>
+            <input type="text" class="field" /> <br />
 
-                <label for="Apellido">Apellido:</label>
-                <input
-                    type="text"
-                    placeholder="ingrese su apellido"
-                    name="Apellido"
-                    id="Apellido" />
+            <p>Correo electrónico:</p>
+            <input type="text" class="field" /> <br />
 
-                <label for="Numero">Movíl</label>
+            <p>Movíl:</p>
+            <input type="cel" class="field" /> <br />
+
+            <p>Mensaje:</p>
+            <textarea class="field"></textarea> <br />
+
+            <p class="center-content">
                 <input
-                    type="tel"
-                    placeholder="ingrese su número"
-                    name="número"
-                    id="Numero" />
-            </div>
-            <div>
-                <textarea name="" id="Pedido" cols="30" rows="10"></textarea>
-                <input type="submit" />
-                <input type="reset" />
-            </div>
+                    type="submit"
+                    class="btn btn-green"
+                    value="Enviar Datos" />
+            </p>
         </form>
 
         <footer>
