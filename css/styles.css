@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 p {
   font-size: 1.8rem;
-  background-color: #c7d1af;
+  background-color: #8fc0a9;
   display: flex;
   text-align: center;
   padding: 4px;
@@ -110,7 +110,7 @@ html {
 }
 
 body {
-  background-color: #c7d1af;
+  background-color: #68b0ab;
   font-size: 2rem;
 }
 
@@ -142,6 +142,10 @@ body {
     flex-direction: row;
     justify-content: space-around;
   }
+}
+
+article div h1 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

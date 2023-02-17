@@ -14,7 +14,7 @@ html {
     font-size: 62.5%;
 }
 body {
-    background-color: #c7d1af;
+    background-color: #68b0ab;
     font-size: 2rem;
 }
 
@@ -47,4 +47,14 @@ body {
 }
 .main__container4 {
     @extend .main__container3;
+}
+
+article {
+    div {
+        h1 {
+            text-align: center;
+        }
+        p {
+        }
+    }
 }
