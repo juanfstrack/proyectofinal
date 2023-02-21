@@ -33,7 +33,7 @@ body {
     }
     @media (min-width: 768px) {
         img {
-            width: 50vh;
+            width: 90vh;
         }
     }
 }
@@ -41,9 +41,7 @@ body {
 .main__container2 {
     @include mixinsfunc.caja-de-fotos;
 }
-.main__container2 {
-    @extend .main;
-}
+
 .main__container3 {
     @extend .main__container2;
 }

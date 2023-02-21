@@ -124,19 +124,19 @@ body {
   font-size: 2rem;
 }
 
-.main .main__container, .main__container2 .main__container, .main__container3 .main__container, .main__container4 .main__container {
+.main .main__container {
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 100%;
   text-align: center;
 }
-.main img, .main__container2 img, .main__container3 img, .main__container4 img {
+.main img {
   width: 49vh;
 }
 @media (min-width: 768px) {
-  .main img, .main__container2 img, .main__container3 img, .main__container4 img {
-    width: 50vh;
+  .main img {
+    width: 90vh;
   }
 }
 
