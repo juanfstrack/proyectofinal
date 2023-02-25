@@ -4,56 +4,57 @@
 @use "form";
 @use "mixinsfunc";
 @use "galeria";
+@use "tabla";
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 * {
-    font-family: "Poppins", sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
 }
 body {
-    background-color: #68b0ab;
-    font-size: 2rem;
+	background-color: #68b0ab;
+	font-size: 2rem;
 }
 
 .main {
-    .main__container {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
+	.main__container {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
 
-        text-align: center;
-    }
-    img {
-        width: 49vh;
-    }
-    @media (min-width: 768px) {
-        img {
-            width: 90vh;
-        }
-    }
+		text-align: center;
+	}
+	img {
+		width: 49vh;
+	}
+	@media (min-width: 768px) {
+		img {
+			width: 90vh;
+		}
+	}
 }
 
 .main__container2 {
-    @include mixinsfunc.caja-de-fotos;
+	@include mixinsfunc.caja-de-fotos;
 }
 
 .main__container3 {
-    @extend .main__container2;
+	@extend .main__container2;
 }
 .main__container4 {
-    @extend .main__container3;
+	@extend .main__container3;
 }
 
 article {
-    div {
-        h1 {
-            text-align: center;
-            padding: 1rem;
-        }
-    }
+	div {
+		h1 {
+			text-align: center;
+			padding: 1rem;
+		}
+	}
 }
