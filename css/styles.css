@@ -9,12 +9,18 @@
   transform: scale(1.1);
 }
 
+@media (max-width: 500px) {
+  .navegacion li {
+    text-align: center;
+  }
+}
 p {
   font-size: 1.8rem;
   background-color: #8fc0a9;
   display: flex;
   text-align: center;
-  padding: 4px;
+  padding: 10px;
+  text-decoration: solid;
 }
 
 footer {
@@ -184,6 +190,11 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .main__container4 img {
+    width: 100%;
+  }
+}
 article div h1 {
   text-align: center;
   padding: 1rem;

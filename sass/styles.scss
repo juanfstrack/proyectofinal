@@ -1,4 +1,5 @@
 @use "navbar";
+@use "variables";
 @use "parrafos";
 @use "footer";
 @use "form";
@@ -16,7 +17,7 @@ html {
 	font-size: 62.5%;
 }
 body {
-	background-color: #68b0ab;
+	background-color: variables.$color1;
 	font-size: 2rem;
 }
 
@@ -48,6 +49,12 @@ body {
 }
 .main__container4 {
 	@extend .main__container3;
+}
+
+@media (max-width: 500px) {
+	.main__container4 img {
+		width: 100%;
+	}
 }
 
 article {
